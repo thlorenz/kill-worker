@@ -1,4 +1,4 @@
-# kill-worker
+# kill-worker [![](https://github.com/thlorenz/kill-worker/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/thlorenz/kill-worker/actions)
 
 Gracefully kill a worker, making sure it terminates in either case.
 

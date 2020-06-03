@@ -18,6 +18,8 @@
     "test": "tape dist/tests/*.test.js",
     "test:ts": "ts-node src/tests/*.test.ts",
     "tsc": "tsc",
+    "lint": "prettier -c ./src/",
+    "lint:fix": "prettier --format ./src",
     "watch": "tsc --watch"
   },
   "repository": {
