@@ -1,6 +1,6 @@
 {
   "name": "kill-worker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gracefully kill a worker, making sure it terminates in either case.",
   "main": "dist/kill-worker.js",
   "types": "dist/kill-worker.d.ts",
