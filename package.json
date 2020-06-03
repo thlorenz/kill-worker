@@ -15,8 +15,8 @@
     "dist": "./dist"
   },
   "scripts": {
-    "test": "tape dist/test/*.test.js",
-    "test:ts": "ts-node src/test/*.test.ts",
+    "test": "tape dist/tests/*.test.js",
+    "test:ts": "ts-node src/tests/*.test.ts",
     "tsc": "tsc",
     "watch": "tsc --watch"
   },

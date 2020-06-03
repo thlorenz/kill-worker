@@ -14,7 +14,7 @@ export const testWorkerScript = codeFromFunction(() => {
         return process.exit(0)
       }
       case 'TERM:ERROR': {
-        return process.exit(1)
+        return process.exit(msg.exitCode)
       }
       case 'TERM:REFUSE': {
         console.log('worker refuses to terminate')
