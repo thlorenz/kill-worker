@@ -26,7 +26,7 @@ const worker = new Worker('/path/to/worker.js')
 // ... after we don't need the worker anymore
 try {
   // exit code is always 0 here
-  const exitCode = await killWorker(worker, exitNormalMsg)
+  const exitCode = await killWorker(worker, { kind: 'TERM' })
 } catch (err) {
   // exit code is always non-zero here and included in the error message
 }
